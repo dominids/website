@@ -4,8 +4,8 @@ function Card(){
     return(
         <div className="card">
             <img className="card-image" src={profilePic} alt="profile picture" />
-            <h2 className="card-title">Dominik</h2>
-            <p className="card-text">I study programming and play video games, also I love metal music </p>
+            <h2 className="card-title">Oskarek</h2>
+            <p className="card-text">W dzień jestem mechatronikiem, wieczorem gram w Destiny 2. I tak moja praca się ciągnie </p>
         </div>
     );
 }
