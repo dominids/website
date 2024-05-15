@@ -1,6 +1,7 @@
 import Card from "./Card";
 import Button from "./Button/Button";
 import Students from "./Students";
+import UserGreeting from "./UserGreeting";
 function App() {
   
   return(
@@ -15,6 +16,8 @@ function App() {
     <Students name="Patrick" age={42} isStudent={false}></Students>
     <Students name="Squidward" age={50} isStudent={false}></Students>
     <Students name="Larry"></Students>
+    <p>5. Conditional rendering</p>
+    <UserGreeting isLoggedIn={true} username="dominids"></UserGreeting>
     </>
   );
 }
