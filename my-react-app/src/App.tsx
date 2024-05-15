@@ -5,6 +5,7 @@ function App() {
   
   return(
     <>
+    <Food></Food>
     <Header></Header>
     <Footer></Footer>
     </>
