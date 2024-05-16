@@ -3,6 +3,7 @@ import Button from "./Button/Button";
 import Students from "./Students";
 import UserGreeting from "./UserGreeting";
 import List from "./List";
+import ProfilePicture from "./ProfilePicture";
 function App() {
   const fruits = [
     {id: 1,name:"apple", calories: 95},
@@ -17,6 +18,8 @@ function App() {
   return(
     <>
     <p>7.</p>
+    <ProfilePicture></ProfilePicture>
+    <Button></Button>
     <p>6. render lists</p>
     {fruits.length > 0 && <List items={fruits} category="Fruits"></List>}
     {vegetables.length > 0 && <List items={vegetables} category="Vegetables"></List>}
