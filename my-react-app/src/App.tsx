@@ -4,6 +4,8 @@ import Students from "./Students";
 import UserGreeting from "./UserGreeting";
 import List from "./List";
 import ProfilePicture from "./ProfilePicture";
+import MyComponent from "./MyComponent";
+import Counter from "./Button/Counter";
 function App() {
   const fruits = [
     {id: 1,name:"apple", calories: 95},
@@ -17,7 +19,10 @@ function App() {
     {id: 9,name:"broccoli", calories: 50}];
   return(
     <>
-    <p>7.</p>
+    <p>8. useState() hook</p>
+    <Counter></Counter>
+    <MyComponent></MyComponent>
+    <p>7. click events</p>
     <ProfilePicture></ProfilePicture>
     <Button></Button>
     <p>6. render lists</p>
