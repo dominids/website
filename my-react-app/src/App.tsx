@@ -6,6 +6,7 @@ import List from "./List";
 import ProfilePicture from "./ProfilePicture";
 import MyComponent from "./MyComponent";
 import Counter from "./Button/Counter";
+import ChangeComponent from "./ChangeComponent";
 function App() {
   const fruits = [
     {id: 1,name:"apple", calories: 95},
@@ -19,6 +20,8 @@ function App() {
     {id: 9,name:"broccoli", calories: 50}];
   return(
     <>
+    <p>9. OnChange event</p>
+    <ChangeComponent></ChangeComponent>
     <p>8. useState() hook</p>
     <Counter></Counter>
     <MyComponent></MyComponent>
@@ -30,7 +33,7 @@ function App() {
     {vegetables.length > 0 && <List items={vegetables} category="Vegetables"></List>}
     <p>5. Conditional rendering</p>
     <UserGreeting isLoggedIn={true} username="dominids"></UserGreeting>
-    <p>4. Students</p>
+    <p>4. Props</p>
     <Students name="Spongebob" age={30} isStudent={true}></Students>
     <Students name="Patrick" age={42} isStudent={false}></Students>
     <Students name="Squidward" age={50} isStudent={false}></Students>
