@@ -28,7 +28,7 @@ function App() {
       <div>
         <p>9. OnChange event</p>
         <ChangeComponent></ChangeComponent>
-        <p>8. useState() hook</p>
+        <p>8. useState() hook & updater</p>
         <Counter></Counter>
         <MyComponent></MyComponent>
         <p>7. click events</p>
