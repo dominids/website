@@ -1,3 +1,7 @@
+.container{
+  display: flex;
+}
+
 .card{
   border: 1px solid hsl(0, 1%, 73%);
   border-radius: 10px;
@@ -16,17 +20,14 @@
 
 }
 .card .card-title{
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   color: hsl(0, 0%, 20%);
 }
 .card .card-text{
-  font-family: Arial, Helvetica, sans-serif;
   color: hsl(0, 0%, 30%);
 }
 
 .student{
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 2em;
   padding: 10px;
   border: 1px solid hsla(0, 0%, 59%, 0.785)
@@ -35,6 +36,7 @@
 .student p{
   margin: 0
 }
+
 .welcome-message{
   font-size: 2.5em;
   background-color: rgb(54, 255, 47);
@@ -43,6 +45,7 @@
   border-radius: 5px;
   margin: 0;
 }
+
 .login-prompt{
   font-size: 2.5em;
   background-color: red;
@@ -51,6 +54,7 @@
   border-radius: 5px;
   margin: 0;
 }
+
 .list-category{
   font-size: 2.5em;
   font-weight: bold;
@@ -75,7 +79,6 @@
 
 .counter-container{
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .counter-display{
   font-size: 3em;
@@ -96,4 +99,45 @@
 }
 .counter-button:hover{
   background-color: hsl(197, 100%, 48%);
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.color-picker-container h1{
+  margin: 50px;
+  font-size: 3rem;
+}
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 80%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+}
+.color-display p{
+  color:hsl(0, 0%, 20%);
+  font-size: 2rem;
+  text-align: center;
+}
+.color-picker-container label{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.color-picker-container input[type="color"]{
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%);
 }

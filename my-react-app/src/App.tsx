@@ -7,6 +7,7 @@ import ProfilePicture from "./ProfilePicture";
 import MyComponent from "./MyComponent";
 import Counter from "./Button/Counter";
 import ChangeComponent from "./ChangeComponent";
+import ColorPicker from "./ColorPickerApp/ColorPicker";
 function App() {
   const fruits = [
     {id: 1,name:"apple", calories: 95},
@@ -20,29 +21,36 @@ function App() {
     {id: 9,name:"broccoli", calories: 50}];
   return(
     <>
-    <p>9. OnChange event</p>
-    <ChangeComponent></ChangeComponent>
-    <p>8. useState() hook</p>
-    <Counter></Counter>
-    <MyComponent></MyComponent>
-    <p>7. click events</p>
-    <ProfilePicture></ProfilePicture>
-    <Button></Button>
-    <p>6. render lists</p>
-    {fruits.length > 0 && <List items={fruits} category="Fruits"></List>}
-    {vegetables.length > 0 && <List items={vegetables} category="Vegetables"></List>}
-    <p>5. Conditional rendering</p>
-    <UserGreeting isLoggedIn={true} username="dominids"></UserGreeting>
-    <p>4. Props</p>
-    <Students name="Spongebob" age={30} isStudent={true}></Students>
-    <Students name="Patrick" age={42} isStudent={false}></Students>
-    <Students name="Squidward" age={50} isStudent={false}></Students>
-    <Students name="Larry"></Students>
-    <p>3. Styling</p>
-    <Button></Button>
-    <p>2. Components</p>
-    <Card></Card>
-    <Card></Card>
+    <div className="container">
+      <div>
+        <ColorPicker />
+      </div>
+      <div>
+        <p>9. OnChange event</p>
+        <ChangeComponent></ChangeComponent>
+        <p>8. useState() hook</p>
+        <Counter></Counter>
+        <MyComponent></MyComponent>
+        <p>7. click events</p>
+        <ProfilePicture></ProfilePicture>
+        <Button></Button>
+        <p>6. render lists</p>
+        {fruits.length > 0 && <List items={fruits} category="Fruits"></List>}
+        {vegetables.length > 0 && <List items={vegetables} category="Vegetables"></List>}
+        <p>5. Conditional rendering</p>
+        <UserGreeting isLoggedIn={true} username="dominids"></UserGreeting>
+        <p>4. Props</p>
+        <Students name="Spongebob" age={30} isStudent={true}></Students>
+        <Students name="Patrick" age={42} isStudent={false}></Students>
+        <Students name="Squidward" age={50} isStudent={false}></Students>
+        <Students name="Larry"></Students>
+        <p>3. Styling</p>
+        <Button></Button>
+        <p>2. Components</p>
+        <Card></Card>
+        <Card></Card>
+      </div>
+    </div>
     </>
   );
 }
