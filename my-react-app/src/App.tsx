@@ -8,6 +8,7 @@ import MyComponent from "./MyComponent";
 import Counter from "./Button/Counter";
 import ChangeComponent from "./ChangeComponent";
 import ColorPicker from "./ColorPickerApp/ColorPicker";
+import UpdateObjects from "./UpdateObjects";
 function App() {
   const fruits = [
     {id: 1,name:"apple", calories: 95},
@@ -26,6 +27,8 @@ function App() {
         <ColorPicker />
       </div>
       <div>
+        <p>12. update objects in state</p>
+        <UpdateObjects></UpdateObjects>
         <p>9. OnChange event</p>
         <ChangeComponent></ChangeComponent>
         <p>8. useState() hook & updater</p>
