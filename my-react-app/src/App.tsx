@@ -11,6 +11,7 @@ import ColorPicker from "./ColorPickerApp/ColorPicker";
 import UpdateObjects from "./UpdateObjects";
 import UpdateArrays from "./UpdateArrays";
 import ArraysOfObjects from "./ArrayOfObjects";
+import ToDoList from "./ToDoList/ToDoList";
 function App() {
   const fruits = [
     {id: 1,name:"apple", calories: 95},
@@ -27,6 +28,7 @@ function App() {
     <div className="container">
       <div>
         <ColorPicker />
+        <ToDoList />
       </div>
       <div>
         <p>14. Arrays Of Objects</p>

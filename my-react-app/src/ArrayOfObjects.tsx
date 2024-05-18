@@ -1,4 +1,3 @@
-import { element, number } from "prop-types";
 import { useState } from "react";
 
 function ArraysOfObjects(){
