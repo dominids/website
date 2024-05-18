@@ -13,6 +13,7 @@ import UpdateArrays from "./UpdateArrays";
 import ArraysOfObjects from "./ArrayOfObjects";
 import ToDoList from "./ToDoList/ToDoList";
 import UseEffectHook from "./UseEffectHook";
+import DigitalClockApp from "./DigitalClockApp/DigitalClockApp";
 function App() {
   const fruits = [
     {id: 1,name:"apple", calories: 95},
@@ -30,7 +31,8 @@ function App() {
       <div>
         <ColorPicker />
         <ToDoList />
-      </div>
+        <DigitalClockApp />
+        </div>
       <div>
         <p>16. useEffect hook</p>
         <UseEffectHook></UseEffectHook>
