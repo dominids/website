@@ -10,6 +10,7 @@ import ChangeComponent from "./ChangeComponent";
 import ColorPicker from "./ColorPickerApp/ColorPicker";
 import UpdateObjects from "./UpdateObjects";
 import UpdateArrays from "./UpdateArrays";
+import ArraysOfObjects from "./ArrayOfObjects";
 function App() {
   const fruits = [
     {id: 1,name:"apple", calories: 95},
@@ -28,6 +29,8 @@ function App() {
         <ColorPicker />
       </div>
       <div>
+        <p>14. Arrays Of Objects</p>
+        <ArraysOfObjects></ArraysOfObjects>
         <p>13. update object in state</p>
         <UpdateArrays></UpdateArrays>
         <p>12. update objects in state</p>
