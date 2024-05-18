@@ -12,6 +12,7 @@ import UpdateObjects from "./UpdateObjects";
 import UpdateArrays from "./UpdateArrays";
 import ArraysOfObjects from "./ArrayOfObjects";
 import ToDoList from "./ToDoList/ToDoList";
+import UseEffectHook from "./UseEffectHook";
 function App() {
   const fruits = [
     {id: 1,name:"apple", calories: 95},
@@ -31,6 +32,8 @@ function App() {
         <ToDoList />
       </div>
       <div>
+        <p>16. useEffect hook</p>
+        <UseEffectHook></UseEffectHook>
         <p>14. Arrays Of Objects</p>
         <ArraysOfObjects></ArraysOfObjects>
         <p>13. update object in state</p>
