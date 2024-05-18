@@ -9,6 +9,7 @@ import Counter from "./Button/Counter";
 import ChangeComponent from "./ChangeComponent";
 import ColorPicker from "./ColorPickerApp/ColorPicker";
 import UpdateObjects from "./UpdateObjects";
+import UpdateArrays from "./UpdateArrays";
 function App() {
   const fruits = [
     {id: 1,name:"apple", calories: 95},
@@ -27,6 +28,8 @@ function App() {
         <ColorPicker />
       </div>
       <div>
+        <p>13. update object in state</p>
+        <UpdateArrays></UpdateArrays>
         <p>12. update objects in state</p>
         <UpdateObjects></UpdateObjects>
         <p>9. OnChange event</p>
