@@ -14,6 +14,7 @@ import ArraysOfObjects from "./ArrayOfObjects";
 import ToDoList from "./ToDoList/ToDoList";
 import UseEffectHook from "./UseEffectHook";
 import DigitalClockApp from "./DigitalClockApp/DigitalClockApp";
+import ComponentA from "./useContext/ComponentA";
 function App() {
   const fruits = [
     {id: 1,name:"apple", calories: 95},
@@ -34,6 +35,8 @@ function App() {
         <DigitalClockApp />
         </div>
       <div>
+        <p>18. useContext hook</p>
+        <ComponentA></ComponentA>
         <p>16. useEffect hook</p>
         <UseEffectHook></UseEffectHook>
         <p>14. Arrays Of Objects</p>
