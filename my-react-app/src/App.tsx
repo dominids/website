@@ -16,6 +16,7 @@ import UseEffectHook from "./UseEffectHook";
 import DigitalClockApp from "./DigitalClockApp/DigitalClockApp";
 import ComponentA from "./useContext/ComponentA";
 import UseRef from "./useRef";
+import Stopwatch from "./Stopwatch/Stopwatch";
 function App() {
   const fruits = [
     {id: 1,name:"apple", calories: 95},
@@ -34,6 +35,7 @@ function App() {
         <ColorPicker />
         <ToDoList />
         <DigitalClockApp />
+        <Stopwatch />
         </div>
       <div>
         <p>19. useRef hook</p>
